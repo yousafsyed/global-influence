@@ -1,0 +1,123 @@
+/*shadow*/
+.box-shadow {box-shadow: 0 0 20px #4c4c4c}
+.text-shadow {text-shadow: 2px 2px 20px #000}
+
+/*pad*/
+.padded{padding:10px !important}
+.pad-left{padding-left:10px}
+.pad-top{padding-top:10px !important}
+.pad-right{padding-right:10px}
+.pad-bottom{padding-bottom:10px !important}
+
+.half-padded {padding: 5px !important}
+.half-pad-left{padding-left:5px}
+.half-pad-top{padding-top:5px}
+.half-pad-right{padding-right:5px}
+.half-pad-bottom{padding-bottom:5px}
+
+.one-half-padded{padding:15px}
+.one-half-pad-left {padding-left: 15px}
+.one-half-pad-top {padding-top: 15px}
+.one-half-pad-right {padding-right: 15px}
+.one-half-pad-bottom {padding-bottom: 15px}
+
+.double-padded{padding:20px;}
+.double-pad-left {padding-left: 20px}
+.double-pad-top {padding-top: 20px}
+.double-pad-right {padding-right: 20px}
+.double-pad-bottom {padding-bottom: 20px}
+
+.triple-padded {padding: 30px}
+.triple-pad-left {padding-left: 30px}
+.triple-pad-top {padding-top: 30px}
+.triple-pad-right{padding-right:30px}
+.triple-pad-bottom{padding-bottom:30px}
+
+.no-pad-right {padding-right: 0 !important}
+.no-pad-left {padding-left: 0 !important}
+.no-pad{padding: 0 !important}
+
+/*gap*/
+.gapped{margin:10px !important}
+.gap-left{margin-left:10px}
+.gap-top{margin-top:10px !important}
+.gap-right{margin-right:10px}
+.gap-bottom{margin-bottom:10px !important}
+
+.half-gapped {margin: 5px !important}
+.half-gap-left{margin-left:5px}
+.half-gap-top{margin-top:5px}
+.half-gap-right{margin-right:5px}
+.half-gap-bottom{margin-bottom:5px}
+
+.one-half-gapped{margin:15px}
+.one-half-gap-left {margin-left: 15px}
+.one-half-gap-top {margin-top: 15px}
+.one-half-gap-right {margin-right: 15px}
+.one-half-gap-bottom {margin-bottom: 15px}
+
+.double-gapped{margin:20px;}
+.double-gap-left {margin-left: 20px}
+.double-gap-top {margin-top: 20px}
+.double-gap-right {margin-right: 20px}
+.double-gap-bottom {margin-bottom: 20px}
+
+.triple-gapped {margin: 30px}
+.triple-gap-left {margin-left: 30px}
+.triple-gap-top {margin-top: 30px}
+.triple-gap-right{margin-right:30px}
+.triple-gap-bottom{margin-bottom:30px}
+
+.no-gap-right {margin-right: 0 !important}
+.no-gap-left {margin-left: 0 !important}
+.no-gap{margin: 0 !important}
+/*text align*/
+.align-left{text-align:left}
+.align-right{text-align:right}
+.align-center{text-align:center}
+.upper-case {text-transform: uppercase}
+.pull-left{float:left}
+.pull-right{float:right}
+.center{margin: 0 auto}
+/*position*/
+.relative{position: relative}
+.absolute{position: absolute}
+.fixed{position: fixed}
+.left{left:0}
+.top{top:0}
+.right{right:0}
+.bottom{bottom:0}
+/*popup style*/
+.overlay {background: #000;height: 100%;left: 0;position: fixed;top: 0;width: 100%;z-index: 9999;opacity: 0.5}
+.popup-container {height: 100%;left: 0;margin-bottom: 30px;overflow: auto;position: absolute;text-align: center;top: 0;width: 100%;z-index: 99999}
+.outer {display: table;height: 100%;position: absolute;width: 100%}
+.middle {display: table-cell;vertical-align: middle}
+/*font size*/
+.fs-18 {font-size: 18px;}
+/*font family*/
+h1, h2, h3, h4, h5, h6 {font-family: ProximaNovaSW01SC-Thin;}
+p {font-family: ProximaNovaSW01SC-Thin;font-size: 18px;font-weight: 600 !important;line-height: 25px}
+/*border*/
+.border {border: 1px solid #dee4eb}
+.no-border{border:none !important}
+.border-bottom{border:none;border-bottom:1px solid #dee4eb !important}
+.double-border {border-width: 2px !important}
+.no-decoration {text-decoration: none}
+/*other style*/
+.full-width {float: left;width: 100%}
+.row {float: left;width: 100%}
+.round {border-radius: 5px !important}
+.round-3 {border-radius: 3px;}
+.full{width:100% !important}
+.x-hidden{ overflow-x:hidden !important}
+.hidden{ overflow:hidden !important}
+.display-inline-block {display: inline-block}
+.hide{display:none}
+.hover:hover {opacity: 0.8}
+.pointer {cursor: pointer}
+.vertical-align-top{vertical-align:top !important;}
+.no-bg {background: transparent  !important}
+.ease{transition: ease all 0.3s}
+input.no-focus:focus, select.no-focus:focus {box-shadow: none;outline: 0 none}
+textarea.no-focus:focus{box-shadow: none;outline: 0 none}
+textarea:focus {border-color: #4671fb !important}

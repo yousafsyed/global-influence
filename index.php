@@ -21,9 +21,7 @@
 <link rel="stylesheet" href="content/latofonts.css">
  <script>
 $(document).ready(function(){
-$('.j_email-icon').click(function(){
-$(this).closest('body').find('.j_login-popup').addClass('active');
-});
+
 $('.cross-btn, .overlay').click(function(){
 $(this).closest('body').find('.j_login-popup').removeClass('active');
 });
@@ -53,7 +51,7 @@ $(this).closest('body').find('.j_login-popup').removeClass('active');
   <h1>Coming Soon..</h1>
 </div>
 <div class="row align-center triple-gap-top">
-  <a href="javascript:;" class="j_email-icon">
+  <a href="#" mailto="info@globalinfluence.com" class="j_email-icon">
     <img src="content/images/email-icon.png">
   </a>
 </div>

@@ -48,10 +48,10 @@ $(this).closest('body').find('.j_login-popup').removeClass('active');
 
 </div>
 <div class="row align-center gap-top gap-bottom">
-  <h1>Coming Soon..</h1>
+  <h1>Launching Soon..</h1>
 </div>
 <div class="row align-center triple-gap-top">
-  <a href="#" mailto="info@globalinfluence.com" class="j_email-icon">
+  <a href="mailto:someone@example.com" class="j_email-icon">
     <img src="content/images/email-icon.png">
   </a>
 </div>

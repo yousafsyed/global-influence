@@ -51,7 +51,7 @@ $(this).closest('body').find('.j_login-popup').removeClass('active');
   <h1>Launching Soon..</h1>
 </div>
 <div class="row align-center triple-gap-top">
-  <a href="mailto:someone@example.com" class="j_email-icon">
+  <a href="mailto:info@globalinfluence.com" class="j_email-icon">
     <img src="content/images/email-icon.png">
   </a>
 </div>

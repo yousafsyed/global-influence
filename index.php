@@ -88,9 +88,7 @@ function startSlider2(idx2) {
 			<p class="half-gap-top one">Research, strategy and behaviour change <br> interventions – underpinned by our<br> proprietary RAID™ insights and evaluation methodology.  </p>
 			<p class="half-gap-top one">Governments, NGOs, commercial<br> organisations and high value individuals.  </p>
 			<p class="half-gap-top one">We solve real world problems. We deliver real world solutions. </p>
-			<div class="row one">
-				<h1 class="">Launching Soon..</h1>
-			</div>
+			<p class="half-gap-top one fs-50">Launching Soon.. </p>
 		</div>
 		
 		<div class="row align-center triple-gap-top">

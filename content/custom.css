@@ -39,3 +39,6 @@ input:focus {border-color: #161E2E !important;}
 .white {color: #fff}
 .j_login-popup{display:none;}
 .j_login-popup.active{display:block}
+.soon {background: rgba(22, 30, 46, 0.5);border-radius: 2px;color: #fff;margin: 0 auto;max-width: 320px;padding: 5px 15px}
+#container .one { display:none;min-height:80px}
+#container .two {display:none;min-height:30px}

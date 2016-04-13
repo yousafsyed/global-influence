@@ -20,75 +20,87 @@
 <link rel="stylesheet" href="content/font-awesome2.min.css">
 <link rel="stylesheet" href="content/latofonts.css">
  <script>
-$(document).ready(function(){
-
-$('.cross-btn, .overlay').click(function(){
-$(this).closest('body').find('.j_login-popup').removeClass('active');
+$(document).ready(function() {
+    startSlider(0);
+	startSlider2(0);
 });
 
-});
+function startSlider(idx) {
+    $span1 = $("#container .one").eq(idx);
+	$span1.fadeIn('slow', function() {
+        $span1.delay(2000).fadeIn('slow', function() {
+          
+               
+                $span1.delay(2000).fadeOut('fast', function() {
+				$span1.fadeOut('slow', function() {
+                        if ($("#container .one").length - 1 == idx) {
+                            startSlider(0);
+                        }
+                        else {
+                            startSlider(idx + 1);
+                        }
+                    });
+                });
+            
+        });
+    });
+
+}
+function startSlider2(idx2) {
+   $span2 = $("#container .two").eq(idx2);
+    
+
+	$span2.fadeIn('slow', function() {
+        $span2.delay(2000).fadeIn('slow', function() {
+          
+               
+                $span2.delay(2000).fadeOut('fast', function() {
+				$span2.fadeOut('slow', function() {
+                        if ($("#container .two").length - 1 == idx2) {
+                            startSlider2(0);
+                        }
+                        else {
+                            startSlider2(idx2 + 1);
+                        }
+                    });
+                });
+            
+        });
+    });
+}
  </script>
 </head>
 <body>
 <!--Main HTML--->
 <div class="global-container">
-<div class="global-inner-container">
-<div class="global-logo row align-center ease">
-  <a href="index.html">
-    <img src="content/images/logo.png">
-  </a>
-</div>
-<div class="text-area">
-  <p>
-    Global Influence&trade; is a specialist division of Verbalisation&trade;. We provide cutting-edge influence solutions for challenging, complex and high stakes environments. 
-  </p>
-
-  <p class="no-gap-top gap-bottom fs-14 color-brown">Recent clients include  </p>
-  <p class="half-gap-top">Governments, NGOs, commercial<br> organisations and high value individuals. </p>
-
-</div>
-<div class="row align-center gap-top gap-bottom">
-  <h1>Launching Soon..</h1>
-</div>
-<div class="row align-center triple-gap-top">
-  <a href="mailto:info@globalinfluence.com" class="j_email-icon">
-    <img src="content/images/email-icon.png">
-  </a>
-</div>
-</div>
-</div>
-<!--Login HTML--->
-<div class="row login-popup no-pad j_login-popup">
-  <div class="overlay white-over-bg"></div>
-	<div class="popup-container">
-	  <div class="outer">
-		<div class="middle">
-		  <div class="inner-content login-popup round-15 no-bg">
-			<div class="mx-425">
-
-			  <div class="inner-content login-popup round-15 display-inline-block">
-				<div class="row fs-18 lh-30  align-right double-pad-right ">
-				  <i class="fa fa-times pointer cross-btn half-pad-top half-pad-bottom"></i>
-
-				</div>
-				<div class="row gap-bottom half-pad-top half-pad-bottom double-pad-left double-pad-right">
-				  <input type="text" class="full-width ffhn-r no-bg login-input" placeholder="Email ID">         
-				</div>
-
-				<div class="login-error">Your username was incorrect.</div>
-				<div class="row half-pad-top half-pad-bottom double-pad-left double-pad-right gap-top">
-				  <div class="full-width">
-					<a class="bg-dark white  no-decoration padded full-width ffhn-b lh-25 fs-15" href="javascript:;">SIGN IN</a>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		  </div>
+	<div class="global-inner-container">
+		<div class="global-logo row align-center ease">
+			<a href="index.html">
+				<img src="content/images/logo.png">
+			</a>
 		</div>
-	  </div>
+		<div class="text-area" id="container">
+			<p>Global Influence&trade; is a specialist division of Verbalisation&trade;. We provide cutting-edge influence solutions for challenging, complex and high stakes environments.</p>
+			<p class="no-gap-top gap-bottom fs-14 color-brown two">Our services include </p>
+			<p class="no-gap-top gap-bottom fs-14 color-brown two">Recent clients include  </p>
+			<p class="no-gap-top gap-bottom fs-14 color-brown two"></p>
+			<p class="no-gap-top gap-bottom fs-14 color-brown two"></p>
+			<p class="half-gap-top one">Research, strategy and behaviour change <br> interventions – underpinned by our<br> proprietary RAID™ insights and evaluation methodology.  </p>
+			<p class="half-gap-top one">Governments, NGOs, commercial<br> organisations and high value individuals.  </p>
+			<p class="half-gap-top one">We solve real world problems. We deliver real world solutions. </p>
+			<div class="row one">
+				<h1 class="">Launching Soon..</h1>
+			</div>
+		</div>
+		
+		<div class="row align-center triple-gap-top">
+			<a href="mailto:info@globalinfluence.com" class="j_email-icon">
+				<img src="content/images/email-icon.png">
+			</a>
+		</div>
 	</div>
- </div>
 </div>
+
 
 
 </body>

@@ -78,7 +78,7 @@ function startSlider2(idx2) {
 		</div>
 		<div class="text-area" id="container">
 		<div class="row inner-text-area">
-			<p class="gap-top gap-bottom">Global influence&reg; is a specialist division of Verbalisation&reg;</p>
+			<p class="gap-top gap-bottom"><span class="upper-case">Global influence&reg;</sapn> is a specialist division of Verbalisation&reg;</p>
 			<p class="half-gap-top gap-bottom">We provide cutting-edge influence solutions for challenging, complex and high stakes environments.</p>
 			<p class="no-gap-bottom double-gap-top upper-case under-line two">Our services include </p>
 			<p class="no-gap-bottom double-gap-top upper-case under-line two">Recent clients include  </p>

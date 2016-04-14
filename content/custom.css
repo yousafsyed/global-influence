@@ -2,14 +2,16 @@
 table {border-collapse: collapse;border-spacing: 0;}
 /*custom frame*/
 /*fonts*/
-@font-face {font-family: "ProximaNovaSW01SC-Thin";
-src: url("http://db.onlinewebfonts.com/t/b5e2b75af1aa994cb39243a656efedb9.eot");
-src: url("http://db.onlinewebfonts.com/t/b5e2b75af1aa994cb39243a656efedb9.eot?#iefix") format("embedded-opentype"),
-url("http://db.onlinewebfonts.com/t/b5e2b75af1aa994cb39243a656efedb9.woff2") format("woff2"),
-url("http://db.onlinewebfonts.com/t/b5e2b75af1aa994cb39243a656efedb9.woff") format("woff"),
-url("http://db.onlinewebfonts.com/t/b5e2b75af1aa994cb39243a656efedb9.ttf") format("truetype"),
-url("http://db.onlinewebfonts.com/t/b5e2b75af1aa994cb39243a656efedb9.svg#ProximaNovaSW01SC-Thin") format("svg");
+@font-face {
+	font-family: 'ProximaNovaSW01SC-Thin';
+	src: url('../font/ProximaNovaA-Regular.eot');
+	src: url('../font/ProximaNovaA-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../font/ProximaNovaA-Regular.woff') format('woff'),
+		url('../font/ProximaNovaA-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
+
 .ffpn-r{font-family:ProximaNovaSW01SC-Thin;font-weight:600}
 /*custom style*/
 body {background-color: #161E2E;color: #4a505a;font-family: ProximaNovaSW01SC-Thin;font-size: 18px;font-weight: normal;height: 100%;margin: 0 !important;overflow-x: hidden;padding: 0 !important;text-rendering: optimizelegibility !important}
@@ -59,11 +61,8 @@ input:focus {border-color: #161E2E !important;}
 .soon {background: rgba(22, 30, 46, 0.5);border-radius: 2px;color: #fff;margin: 0 auto;max-width: 320px;padding: 5px 15px}
 #container .one { display:none;min-height:80px}
 #container .two {display:none;min-height:30px}
-.fs-50{font-size: 50px;}
+.fs-50{font-size: 40px;line-height: 40px;}
 .upper-case{text-transform:upper-case;}
 .under-line{text-decoration:underline;}
 .inner-text-area{padding:0px 20px; text-align: left;}
-.footer {
-  background: #424d57;
-  padding: 16px 0;
-}
+.footer {background: #424d57;padding: 16px 0}

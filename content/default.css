@@ -71,6 +71,8 @@
 .no-gap-right {margin-right: 0 !important}
 .no-gap-left {margin-left: 0 !important}
 .no-gap{margin: 0 !important}
+.no-gap-bottom {margin-bottom: 0 !important}
+.no-gap-top {margin-top: 0 !important}
 /*text align*/
 .align-left{text-align:left}
 .align-right{text-align:right}
@@ -96,7 +98,13 @@
 .fs-18 {font-size: 18px;}
 /*font family*/
 h1, h2, h3, h4, h5, h6 {font-family: ProximaNovaSW01SC-Thin;}
-p {font-family: ProximaNovaSW01SC-Thin;font-size: 18px;font-weight: 600 !important;line-height: 25px}
+p {
+  font-family: ProximaNovaSW01SC-Thin;
+  font-size: 18px;
+  font-weight: 600 !important;
+  letter-spacing: 1px;
+  line-height: 25px;
+}
 /*border*/
 .border {border: 1px solid #dee4eb}
 .no-border{border:none !important}

@@ -11,15 +11,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 <title>Global Influence</title>
 <script type="text/javascript" src="content/js/jquery-1.11.3.min.js" ></script>
-<script type="text/javascript" src="content/js/jquery.easing.min.js" ></script>
-<script type="text/javascript" src="content/js/smoothscroll.js" ></script>
 <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <link type="text/css" rel="stylesheet" href="content/custom.css">
 <link type="text/css" rel="stylesheet" href="content/default.css">
 <link type="text/css" rel="stylesheet" href="content/responsive.css">
 <link rel="stylesheet" href="content/font-awesome2.min.css">
-<link rel="stylesheet" href="content/latofonts.css">
- <script>
+<script>
 $(document).ready(function() {
     startSlider(0);
 	startSlider2(0);
@@ -72,7 +69,7 @@ function startSlider2(idx2) {
 </head>
 <body>
 <!--Main HTML--->
-<div class="global-container">
+<div class="global-container relative">
 	<div class="global-inner-container">
 		<div class="global-logo row align-center ease">
 			<a href="index.html">
@@ -80,21 +77,24 @@ function startSlider2(idx2) {
 			</a>
 		</div>
 		<div class="text-area" id="container">
-			<p>Global Influence&trade; is a specialist division of Verbalisation&trade;. We provide cutting-edge influence solutions for challenging, complex and high stakes environments.</p>
-			<p class="no-gap-top gap-bottom fs-14 color-brown two">Our services include </p>
-			<p class="no-gap-top gap-bottom fs-14 color-brown two">Recent clients include  </p>
-			<p class="no-gap-top gap-bottom fs-14 color-brown two"></p>
-			<p class="no-gap-top gap-bottom fs-14 color-brown two"></p>
-			<p class="half-gap-top one">Research, strategy and behaviour change <br> interventions – underpinned by our<br> proprietary RAID™ insights and evaluation methodology.  </p>
-			<p class="half-gap-top one">Governments, NGOs, commercial<br> organisations and high value individuals.  </p>
+		<div class="row inner-text-area">
+			<p class="gap-top gap-bottom">Global influence&reg; is a specialist division of Verbalisation&reg;</p>
+			<p class="half-gap-top gap-bottom">We provide cutting-edge influence solutions for challenging, complex and high stakes environments.</p>
+			<p class="no-gap-bottom double-gap-top upper-case under-line two">Our services include </p>
+			<p class="no-gap-bottom double-gap-top upper-case under-line two">Recent clients include  </p>
+			<p class="no-gap-bottom double-gap-top upper-case under-line two"></p>
+			<p class="no-gap-bottom double-gap-top upper-case under-line two"></p>
+			<p class="half-gap-top one">Research, strategy and behaviour change interventions – underpinned by our proprietary RAID™ insights and evaluation methodology.</p>
+			<p class="half-gap-top one">Governments, NGOs, commercial organisations and high value individuals.</p>
 			<p class="half-gap-top one">We solve real world problems. We deliver real world solutions. </p>
-			<p class="half-gap-top one fs-50">Launching Soon.. </p>
+			<p class="half-gap-top one fs-50">Launching Soon..</p>
+		</div>
 		</div>
 		
-		<div class="row align-center triple-gap-top">
-			<a href="mailto:info@globalinfluence.com" class="j_email-icon">
-				<img src="content/images/email-icon.png">
-			</a>
+		<div class="row align-center footer absolute bottom left ">
+		  <a class="j_email-icon" href="mailto:info@globalinfluence.com">
+			<img src="content/images/email-icon.png">
+		  </a>
 		</div>
 	</div>
 </div>

@@ -16,10 +16,27 @@ body {background-color: #161E2E;color: #4a505a;font-family: ProximaNovaSW01SC-Th
 /*a:hover {opacity: 0.8}*/
 input:focus {border-color: #161E2E !important;}
 
-.global-container {height: 913px;margin: 0 auto;max-width: 1375px}
-.global-inner-container {background: rgba(0, 0, 0, 0) url("../content/images/main-bg.jpg") repeat scroll 0 0;float: left;height: 100%;padding: 10px;width: 100%}
-.global-logo {margin: 25px 0;padding-top: 25px}
-.text-area {margin: 0px auto;max-width: 462px;text-align: center;width: 100%}
+.global-container {
+  height: 860px;
+  margin: 0 auto;
+  max-width: 1375px;
+}
+.global-inner-container {
+  background: rgba(0, 0, 0, 0) url("../content/images/main-bg.jpg") repeat scroll 0 40px;
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+.global-logo {
+  background: #fff none repeat scroll 0 0;
+  margin-bottom: 45px;
+  padding: 25px 0;
+}
+.text-area {
+  margin: 0 auto;
+  max-width: 650px;
+  width: 100%;
+}
 .text-area p {float: left;margin: 25px 0;width: 100%}
 .no-gap-top {margin-top: 0 !important}
 .half-gap-top {margin-top: 5px !important}
@@ -43,3 +60,10 @@ input:focus {border-color: #161E2E !important;}
 #container .one { display:none;min-height:80px}
 #container .two {display:none;min-height:30px}
 .fs-50{font-size: 50px;}
+.upper-case{text-transform:upper-case;}
+.under-line{text-decoration:underline;}
+.inner-text-area{padding:0px 20px; text-align: left;}
+.footer {
+  background: #424d57;
+  padding: 16px 0;
+}
